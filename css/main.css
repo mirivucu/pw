@@ -1,0 +1,73 @@
+body {
+  background: url("../images/background.jpg");
+  background-attachment: fixed;
+}
+
+#main-header {
+  margin-top: 2.5rem;
+}
+
+#main-header h1 {
+  text-align: center;
+}
+
+.real-madrid {
+  color: #0255a5;
+}
+
+#main-navigation {
+  background-color: #0255a5;
+  display: table;
+  width: 100%;
+}
+
+#main-navigation a {
+  text-align: center;
+  display: table-cell;
+  padding: 1rem 0.5rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+#main-navigation a.active,
+#main-navigation a:hover {
+  background-color: #013b73;
+}
+
+#content {
+  margin: 2.5rem;
+  padding: 2rem 5rem;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+#content img.center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+label.cb {
+  font-weight: normal;
+}
+
+.message {
+  border-radius: 4px;
+  height: 3rem;
+  line-height: 3rem;
+  color: #fff;
+  padding: 0 1rem;
+}
+
+.message.success {
+  background-color: #5ca466;
+}
+.message.fail {
+  background-color: #d96f39;
+}
+
+.questions .tip {
+  display: none;
+  font-weight: normal;
+  color: #5ca466;
+}
+
